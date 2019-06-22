@@ -36,6 +36,9 @@ extern crate bincode;
 #[cfg(test)]
 #[macro_use]
 extern crate doc_comment;
+extern crate strum;
+#[macro_use]
+extern crate strum_macros;
 
 #[cfg(test)]
 doctest!("../README.md");
